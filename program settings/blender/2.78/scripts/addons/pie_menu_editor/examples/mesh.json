@@ -1,0 +1,268 @@
+[
+  [
+    "Mesh: Selection Mode", 
+    "Mesh", 
+    "ctrl+TAB", 
+    [
+      [
+        "Edge", 
+        "COMMAND", 
+        "EDGESEL", 
+        "bpy.context.tool_settings.mesh_select_mode = (False,True,False)"
+      ], 
+      [
+        "Face", 
+        "COMMAND", 
+        "FACESEL", 
+        "bpy.context.tool_settings.mesh_select_mode = (False,False,True)"
+      ], 
+      [
+        "Vertex", 
+        "COMMAND", 
+        "VERTEXSEL", 
+        "bpy.context.tool_settings.mesh_select_mode = (True,False,False)"
+      ], 
+      [
+        "All", 
+        "COMMAND", 
+        "OBJECT_DATA", 
+        "bpy.context.tool_settings.mesh_select_mode = (True,True,True)"
+      ], 
+      [
+        ""
+      ], 
+      [
+        "Edge, Face", 
+        "COMMAND", 
+        "", 
+        "bpy.context.tool_settings.mesh_select_mode = (False,True,True)"
+      ], 
+      [
+        "Vertex, Edge", 
+        "COMMAND", 
+        "", 
+        "bpy.context.tool_settings.mesh_select_mode = (True,True,False)"
+      ], 
+      [
+        "Vertex, Face", 
+        "COMMAND", 
+        "", 
+        "bpy.context.tool_settings.mesh_select_mode = (True,False,True)"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ], 
+  [
+    "Mesh: Merge", 
+    "Mesh", 
+    "alt+X", 
+    [
+      [
+        "At First", 
+        "COMMAND", 
+        "SPACE3", 
+        "bpy.ops.mesh.merge(type='FIRST')"
+      ], 
+      [
+        "At Last", 
+        "COMMAND", 
+        "SPACE2", 
+        "bpy.ops.mesh.merge(type='LAST')"
+      ], 
+      [
+        "At Center", 
+        "COMMAND", 
+        "ROTATECENTER", 
+        "bpy.ops.mesh.merge(type='CENTER')"
+      ], 
+      [
+        "At Cursor", 
+        "COMMAND", 
+        "CURSOR", 
+        "bpy.ops.mesh.merge(type='CURSOR')"
+      ], 
+      [
+        "Collapse", 
+        "COMMAND", 
+        "STICKY_UVS_LOC", 
+        "bpy.ops.mesh.merge(type='COLLAPSE')"
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ], 
+  [
+    "Mesh: Delete", 
+    "Mesh", 
+    "X", 
+    [
+      [
+        "Edges", 
+        "COMMAND", 
+        "EDGESEL", 
+        "bpy.ops.mesh.delete(type='EDGE')"
+      ], 
+      [
+        "Faces", 
+        "COMMAND", 
+        "FACESEL", 
+        "bpy.ops.mesh.delete(type='FACE')"
+      ], 
+      [
+        "Vertices", 
+        "COMMAND", 
+        "VERTEXSEL", 
+        "bpy.ops.mesh.delete(type='VERT')"
+      ], 
+      [
+        "Limited Disolve", 
+        "COMMAND", 
+        "OBJECT_DATAMODE", 
+        "bpy.ops.mesh.dissolve_limited()"
+      ], 
+      [
+        "Only Edges & Faces", 
+        "COMMAND", 
+        "", 
+        "bpy.ops.mesh.delete(type='EDGE_FACE')"
+      ], 
+      [
+        "Only Faces", 
+        "COMMAND", 
+        "FACESEL", 
+        "bpy.ops.mesh.delete(type='ONLY_FACE')"
+      ], 
+      [
+        "Edge Collapse", 
+        "COMMAND", 
+        "", 
+        "bpy.ops.mesh.edge_collapse()"
+      ], 
+      [
+        "Edge Loop", 
+        "COMMAND", 
+        "LOOPSEL", 
+        "bpy.ops.mesh.delete_edgeloop()"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "HOLD"
+  ], 
+  [
+    "Mesh: Disolve", 
+    "Mesh", 
+    "shift+X", 
+    [
+      [
+        "Edges", 
+        "COMMAND", 
+        "EDGESEL", 
+        "bpy.ops.mesh.dissolve_edges()"
+      ], 
+      [
+        "Faces", 
+        "COMMAND", 
+        "FACESEL", 
+        "bpy.ops.mesh.dissolve_faces()"
+      ], 
+      [
+        "Vertices", 
+        "COMMAND", 
+        "VERTEXSEL", 
+        "bpy.ops.mesh.dissolve_verts()"
+      ], 
+      [
+        "Limited Disolve", 
+        "COMMAND", 
+        "LOOPSEL", 
+        "bpy.ops.mesh.dissolve_limited()"
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ], 
+  [
+    "Mesh: Specials", 
+    "Mesh", 
+    "W", 
+    [
+      [
+        "Subdivide", 
+        "COMMAND", 
+        "MESH_GRID", 
+        "bpy.ops.mesh.subdivide(smoothness=0)"
+      ], 
+      [
+        "Smooth", 
+        "COMMAND", 
+        "WIRE", 
+        "bpy.ops.mesh.vertices_smooth()"
+      ], 
+      [
+        "Remove Doubles", 
+        "COMMAND", 
+        "STICKY_UVS_LOC", 
+        "bpy.ops.mesh.remove_doubles()"
+      ], 
+      [
+        "Flip Normals", 
+        "COMMAND", 
+        "ARROW_LEFTRIGHT", 
+        "bpy.ops.mesh.flip_normals()"
+      ], 
+      [
+        "Subdivide Smooth", 
+        "COMMAND", 
+        "MESH_UVSPHERE", 
+        "bpy.ops.mesh.subdivide(smoothness=1)"
+      ], 
+      [
+        "Smooth Laplacian", 
+        "COMMAND", 
+        "SOLID", 
+        "bpy.ops.mesh.vertices_smooth_laplacian()"
+      ], 
+      [
+        "Shade Smooth", 
+        "COMMAND", 
+        "MATSPHERE", 
+        "bpy.ops.mesh.faces_shade_smooth()"
+      ], 
+      [
+        "Shade Flat", 
+        "COMMAND", 
+        "MESH_ICOSPHERE", 
+        "bpy.ops.mesh.faces_shade_flat()"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "HOLD"
+  ]
+]

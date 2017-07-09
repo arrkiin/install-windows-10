@@ -1,0 +1,237 @@
+[
+  [
+    "Win: Header & Regions", 
+    "Window", 
+    "SPACE", 
+    [
+      [
+        "Tools", 
+        "HOTKEY", 
+        "PREFERENCES", 
+        "T"
+      ], 
+      [
+        "Properties", 
+        "HOTKEY", 
+        "SETTINGS", 
+        "N"
+      ], 
+      [
+        "Header", 
+        "COMMAND", 
+        "TRIA_DOWN", 
+        "r = C.area.regions[0]; visible = r.height > 1; on_top = r.y > C.area.y; bpy.ops.screen.header_flip() if on_top else None; None if on_top and visible else bpy.ops.screen.header()"
+      ], 
+      [
+        "Header", 
+        "COMMAND", 
+        "TRIA_UP", 
+        "r = C.area.regions[0]; visible = r.height > 1; on_top = r.y > C.area.y; bpy.ops.screen.header_flip() if not on_top else None; None if not on_top and visible else bpy.ops.screen.header()"
+      ], 
+      [
+        "Maximize", 
+        "COMMAND", 
+        "FULLSCREEN", 
+        "bpy.ops.screen.screen_full_area()"
+      ], 
+      [
+        "Fullscreen", 
+        "COMMAND", 
+        "MESH_PLANE", 
+        "bpy.ops.screen.screen_full_area(use_hide_panels=True)"
+      ], 
+      [
+        "Menus", 
+        "COMMAND", 
+        "COLLAPSEMENU", 
+        "bpy.ops.screen.header_toggle_menus()"
+      ], 
+      [
+        "Render View", 
+        "COMMAND", 
+        "RENDER_RESULT", 
+        "bpy.ops.render.view_show()"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "HOLD"
+  ], 
+  [
+    "Win: Screen Layout", 
+    "Window", 
+    "F4", 
+    [
+      [
+        "UV Editing", 
+        "COMMAND", 
+        "IMAGE_COL", 
+        "bpy.ops.pme.screen_set(name=\"UV Editing\")"
+      ], 
+      [
+        "Compositing", 
+        "COMMAND", 
+        "NODETREE", 
+        "bpy.ops.pme.screen_set(name=\"Compositing\")"
+      ], 
+      [
+        "Default", 
+        "COMMAND", 
+        "VIEW3D", 
+        "bpy.ops.pme.screen_set(name=\"Default\")"
+      ], 
+      [
+        "Scripting", 
+        "COMMAND", 
+        "TEXT", 
+        "bpy.ops.pme.screen_set(name=\"Scripting\")"
+      ], 
+      [
+        "Animation", 
+        "COMMAND", 
+        "NLA", 
+        "bpy.ops.pme.screen_set(name=\"Animation\")"
+      ], 
+      [
+        "Game Logic", 
+        "COMMAND", 
+        "LOGIC", 
+        "bpy.ops.pme.screen_set(name=\"Game Logic\")"
+      ], 
+      [
+        "Motion Tracking", 
+        "COMMAND", 
+        "RENDER_ANIMATION", 
+        "bpy.ops.pme.screen_set(name=\"Motion Tracking\")"
+      ], 
+      [
+        "Video Editing", 
+        "COMMAND", 
+        "SEQUENCE", 
+        "bpy.ops.pme.screen_set(name=\"Video Editing\")"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ], 
+  [
+    "Win: File", 
+    "Window", 
+    "F1", 
+    [
+      [
+        "Link", 
+        "COMMAND", 
+        "LINK_BLEND", 
+        "bpy.ops.wm.link()"
+      ], 
+      [
+        "Append", 
+        "COMMAND", 
+        "APPEND_BLEND", 
+        "bpy.ops.wm.append()"
+      ], 
+      [
+        "User Preferences", 
+        "MENU", 
+        "PREFERENCES", 
+        "Win: File - User Preferences"
+      ], 
+      [
+        "Open", 
+        "COMMAND", 
+        "FILE_FOLDER", 
+        "bpy.ops.wm.open_mainfile()"
+      ], 
+      [
+        "New", 
+        "COMMAND", 
+        "NEW", 
+        "bpy.ops.wm.read_homefile()"
+      ], 
+      [
+        "Open Recent", 
+        "COMMAND", 
+        "OPEN_RECENT", 
+        "bpy.ops.wm.call_menu(name='INFO_MT_file_open_recent')"
+      ], 
+      [
+        "PME Preferences", 
+        "COMMAND", 
+        "PROP_CON", 
+        "bpy.ops.pme.userpref_show(addon=\"pie_menu_editor\")"
+      ], 
+      [
+        "Splash Screen", 
+        "COMMAND", 
+        "BLENDER", 
+        "bpy.ops.wm.splash()"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ], 
+  [
+    "Win: File - User Preferences", 
+    "Window", 
+    "", 
+    [
+      [
+        "row?size=LARGER&vspacer=NONE"
+      ], 
+      [
+        "Interface", 
+        "COMMAND", 
+        "#SPLITSCREEN", 
+        "bpy.ops.pme.userpref_show(tab='INTERFACE')"
+      ], 
+      [
+        "Editing", 
+        "COMMAND", 
+        "#EDIT", 
+        "bpy.ops.pme.userpref_show(tab='EDITING')"
+      ], 
+      [
+        "Input", 
+        "COMMAND", 
+        "#BORDER_RECT", 
+        "bpy.ops.pme.userpref_show(tab='INPUT')"
+      ], 
+      [
+        "row?size=LARGER&vspacer=NONE"
+      ], 
+      [
+        "Add-ons", 
+        "COMMAND", 
+        "#SCRIPT", 
+        "bpy.ops.pme.userpref_show(tab='ADDONS')"
+      ], 
+      [
+        "Themes", 
+        "COMMAND", 
+        "#RENDER_RESULT", 
+        "bpy.ops.pme.userpref_show(tab='THEMES')"
+      ], 
+      [
+        "File", 
+        "COMMAND", 
+        "#FILE", 
+        "bpy.ops.pme.userpref_show(tab='FILES')"
+      ], 
+      [
+        "row?size=LARGER&vspacer=NONE"
+      ], 
+      [
+        "System", 
+        "COMMAND", 
+        "#SCRIPTWIN", 
+        "bpy.ops.pme.userpref_show(tab='SYSTEM')"
+      ]
+    ], 
+    "DIALOG", 
+    "pd?pd_box=", 
+    "PRESS"
+  ]
+]

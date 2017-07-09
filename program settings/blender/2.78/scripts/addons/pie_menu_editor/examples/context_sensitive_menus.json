@@ -1,0 +1,34 @@
+[
+  [
+    "Mesh Context Sensitive Menu", 
+    "Mesh", 
+    "Q", 
+    [
+      [
+        "Opens \"Vertex\", \"Edge\" or \"Face\" menu if exists.", 
+        "COMMAND", 
+        "", 
+        "msm = C.tool_settings.mesh_select_mode; msm[0] and open_menu(\"Vertex\") or msm[1] and open_menu(\"Edge\") or msm[2] and open_menu(\"Face\")"
+      ]
+    ], 
+    "SCRIPT", 
+    "s?", 
+    "PRESS"
+  ], 
+  [
+    "Object Context Sensitive Menu", 
+    "Object Mode", 
+    "Q", 
+    [
+      [
+        "Opens \"Mesh\", \"Curve\", \"Surface\", \"Meta\", \"Font\", \"Armature\", \"Lattice\", \"Empty\", \"Camera\", \"Lamp\" or \"Speaker\" menu if exists. Otherwise, opens \"Object\" menu.", 
+        "COMMAND", 
+        "", 
+        "name = C.active_object.type.title(); open_menu(name) or open_menu(\"Object\")"
+      ]
+    ], 
+    "SCRIPT", 
+    "s?", 
+    "PRESS"
+  ]
+]

@@ -1,0 +1,88 @@
+[
+  [
+    "UV: Snap UV Element", 
+    "UV Editor", 
+    "ctrl+shift+TAB", 
+    [
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        "Vertex", 
+        "COMMAND", 
+        "SNAP_VERTEX", 
+        "bpy.context.scene.tool_settings.snap_uv_element = 'VERTEX'"
+      ], 
+      [
+        "Increment", 
+        "COMMAND", 
+        "SNAP_INCREMENT", 
+        "bpy.context.scene.tool_settings.snap_uv_element = 'INCREMENT'"
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ], 
+  [
+    "UV: Select Mode", 
+    "UV Editor", 
+    "ctrl+TAB", 
+    [
+      [
+        "Edge", 
+        "COMMAND", 
+        "UV_EDGESEL", 
+        "bpy.context.scene.tool_settings.uv_select_mode = 'EDGE'"
+      ], 
+      [
+        "Face", 
+        "COMMAND", 
+        "UV_FACESEL", 
+        "bpy.context.scene.tool_settings.uv_select_mode = 'FACE'"
+      ], 
+      [
+        "Vertex", 
+        "COMMAND", 
+        "UV_VERTEXSEL", 
+        "bpy.context.scene.tool_settings.uv_select_mode = 'VERTEX'"
+      ], 
+      [
+        "Island", 
+        "COMMAND", 
+        "UV_ISLANDSEL", 
+        "bpy.context.scene.tool_settings.uv_select_mode = 'ISLAND'"
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ]
+]

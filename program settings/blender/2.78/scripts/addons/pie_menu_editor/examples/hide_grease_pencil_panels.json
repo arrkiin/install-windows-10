@@ -1,0 +1,204 @@
+[
+  [
+    "Hide Grease Pencil Panels", 
+    "Window", 
+    "", 
+    [
+      [
+        "Drawing Brushes", 
+        "MENU", 
+        "", 
+        "CLIP_PT_tools_grease_pencil_brush"
+      ], 
+      [
+        "Brush Curves", 
+        "MENU", 
+        "", 
+        "CLIP_PT_tools_grease_pencil_brushcurves"
+      ], 
+      [
+        "Grease Pencil", 
+        "MENU", 
+        "", 
+        "CLIP_PT_tools_grease_pencil_draw"
+      ], 
+      [
+        "Edit Strokes", 
+        "MENU", 
+        "", 
+        "CLIP_PT_tools_grease_pencil_edit"
+      ], 
+      [
+        "Sculpt Strokes", 
+        "MENU", 
+        "", 
+        "CLIP_PT_tools_grease_pencil_sculpt"
+      ], 
+      [
+        "Drawing Brushes", 
+        "MENU", 
+        "", 
+        "IMAGE_PT_tools_grease_pencil_brush"
+      ], 
+      [
+        "Brush Curves", 
+        "MENU", 
+        "", 
+        "IMAGE_PT_tools_grease_pencil_brushcurves"
+      ], 
+      [
+        "Grease Pencil", 
+        "MENU", 
+        "", 
+        "IMAGE_PT_tools_grease_pencil_draw"
+      ], 
+      [
+        "Edit Strokes", 
+        "MENU", 
+        "", 
+        "IMAGE_PT_tools_grease_pencil_edit"
+      ], 
+      [
+        "Sculpt Strokes", 
+        "MENU", 
+        "", 
+        "IMAGE_PT_tools_grease_pencil_sculpt"
+      ], 
+      [
+        "Drawing Brushes", 
+        "MENU", 
+        "", 
+        "NODE_PT_tools_grease_pencil_brush"
+      ], 
+      [
+        "Brush Curves", 
+        "MENU", 
+        "", 
+        "NODE_PT_tools_grease_pencil_brushcurves"
+      ], 
+      [
+        "Grease Pencil", 
+        "MENU", 
+        "", 
+        "NODE_PT_tools_grease_pencil_draw"
+      ], 
+      [
+        "Edit Strokes", 
+        "MENU", 
+        "", 
+        "NODE_PT_tools_grease_pencil_edit"
+      ], 
+      [
+        "Sculpt Strokes", 
+        "MENU", 
+        "", 
+        "NODE_PT_tools_grease_pencil_sculpt"
+      ], 
+      [
+        "Drawing Brushes", 
+        "MENU", 
+        "", 
+        "VIEW3D_PT_tools_grease_pencil_brush"
+      ], 
+      [
+        "Brush Curves", 
+        "MENU", 
+        "", 
+        "VIEW3D_PT_tools_grease_pencil_brushcurves"
+      ], 
+      [
+        "Grease Pencil", 
+        "MENU", 
+        "", 
+        "VIEW3D_PT_tools_grease_pencil_draw"
+      ], 
+      [
+        "Edit Strokes", 
+        "MENU", 
+        "", 
+        "VIEW3D_PT_tools_grease_pencil_edit"
+      ], 
+      [
+        "Sculpt Strokes", 
+        "MENU", 
+        "", 
+        "VIEW3D_PT_tools_grease_pencil_sculpt"
+      ], 
+      [
+        "Grease Pencil Layers", 
+        "MENU", 
+        "", 
+        "CLIP_PT_grease_pencil"
+      ], 
+      [
+        "Grease Pencil Colors", 
+        "MENU", 
+        "", 
+        "CLIP_PT_grease_pencil_palettecolor"
+      ], 
+      [
+        "Grease Pencil Layers", 
+        "MENU", 
+        "", 
+        "IMAGE_PT_grease_pencil"
+      ], 
+      [
+        "Grease Pencil Colors", 
+        "MENU", 
+        "", 
+        "IMAGE_PT_grease_pencil_palettecolor"
+      ], 
+      [
+        "Grease Pencil Layers", 
+        "MENU", 
+        "", 
+        "NODE_PT_grease_pencil"
+      ], 
+      [
+        "Grease Pencil Colors", 
+        "MENU", 
+        "", 
+        "NODE_PT_grease_pencil_palettecolor"
+      ], 
+      [
+        "Grease Pencil Settings", 
+        "MENU", 
+        "", 
+        "NODE_PT_grease_pencil_tools"
+      ], 
+      [
+        "Grease Pencil Layers", 
+        "MENU", 
+        "", 
+        "SEQUENCER_PT_grease_pencil"
+      ], 
+      [
+        "Grease Pencil Colors", 
+        "MENU", 
+        "", 
+        "SEQUENCER_PT_grease_pencil_palettecolor"
+      ], 
+      [
+        "Grease Pencil Settings", 
+        "MENU", 
+        "", 
+        "SEQUENCER_PT_grease_pencil_tools"
+      ], 
+      [
+        "Grease Pencil Layers", 
+        "MENU", 
+        "", 
+        "VIEW3D_PT_grease_pencil"
+      ], 
+      [
+        "Grease Pencil Colors", 
+        "MENU", 
+        "", 
+        "VIEW3D_PT_grease_pencil_palettecolor"
+      ]
+    ], 
+    "HPANEL", 
+    "hpg?", 
+    "PRESS"
+  ]
+]

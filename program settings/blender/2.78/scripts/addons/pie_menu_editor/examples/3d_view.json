@@ -1,0 +1,198 @@
+[
+  [
+    "3D: Snap Selection", 
+    "3D View", 
+    "SELECTMOUSE", 
+    [
+      [
+        "Selection to Cursor", 
+        "COMMAND", 
+        "CURSOR", 
+        "bpy.ops.view3d.snap_selected_to_cursor(use_offset=False)"
+      ], 
+      [
+        "Selection to Cursor (Offset)", 
+        "COMMAND", 
+        "CURSOR", 
+        "bpy.ops.view3d.snap_selected_to_cursor(use_offset=True)"
+      ], 
+      [
+        "Selection to Center", 
+        "COMMAND", 
+        "MANIPUL", 
+        "loc = C.space_data.cursor_location.to_tuple(); C.space_data.cursor_location = (0, 0, 0); O.view3d.snap_selected_to_cursor(use_offset=True); C.space_data.cursor_location = loc"
+      ], 
+      [
+        "Selection to Grid", 
+        "COMMAND", 
+        "SNAP_GRID", 
+        "bpy.ops.view3d.snap_selected_to_grid()"
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "DOUBLE_CLICK"
+  ], 
+  [
+    "3D: View", 
+    "3D View", 
+    "MIDDLEMOUSE", 
+    [
+      [
+        "View All", 
+        "HOTKEY", 
+        "OBJECT_DATAMODE", 
+        "HOME"
+      ], 
+      [
+        "View Selected", 
+        "HOTKEY", 
+        "FACESEL", 
+        "NUMPAD_PERIOD"
+      ], 
+      [
+        "Local View", 
+        "COMMAND", 
+        "MESH_CUBE", 
+        "execute_script(\"scripts/command_localview.py\", mode='LOCAL')"
+      ], 
+      [
+        "Global View", 
+        "COMMAND", 
+        "GROUP", 
+        "execute_script(\"scripts/command_localview.py\", mode='GLOBAL')"
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "DOUBLE_CLICK"
+  ], 
+  [
+    "3D: Snap Cursor", 
+    "3D View", 
+    "ACTIONMOUSE", 
+    [
+      [
+        "Cursor to Active", 
+        "COMMAND", 
+        "ROTACTIVE", 
+        "bpy.ops.view3d.snap_cursor_to_active()"
+      ], 
+      [
+        "Cursor to Selected", 
+        "COMMAND", 
+        "ROTATECENTER", 
+        "bpy.ops.view3d.snap_cursor_to_selected()"
+      ], 
+      [
+        "Cursor to Center", 
+        "COMMAND", 
+        "MANIPUL", 
+        "bpy.ops.view3d.snap_cursor_to_center()"
+      ], 
+      [
+        "Cursor to Grid", 
+        "COMMAND", 
+        "SNAP_GRID", 
+        "bpy.ops.view3d.snap_cursor_to_grid()"
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ], 
+      [
+        ""
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "DOUBLE_CLICK"
+  ], 
+  [
+    "3D: View Numpad", 
+    "3D View", 
+    "Q", 
+    [
+      [
+        "Left", 
+        "COMMAND", 
+        "TRIA_LEFT", 
+        "bpy.ops.view3d.viewnumpad(type='LEFT')"
+      ], 
+      [
+        "Right", 
+        "COMMAND", 
+        "TRIA_RIGHT", 
+        "bpy.ops.view3d.viewnumpad(type='RIGHT')"
+      ], 
+      [
+        "Bottom", 
+        "COMMAND", 
+        "TRIA_DOWN", 
+        "bpy.ops.view3d.viewnumpad(type='BOTTOM')"
+      ], 
+      [
+        "Top", 
+        "COMMAND", 
+        "TRIA_UP", 
+        "bpy.ops.view3d.viewnumpad(type='TOP')"
+      ], 
+      [
+        "Front", 
+        "COMMAND", 
+        "OUTLINER_OB_ARMATURE", 
+        "bpy.ops.view3d.viewnumpad(type='FRONT')"
+      ], 
+      [
+        "Back", 
+        "COMMAND", 
+        "ARMATURE_DATA", 
+        "bpy.ops.view3d.viewnumpad(type='BACK')"
+      ], 
+      [
+        "Camera", 
+        "COMMAND", 
+        "CAMERA_DATA", 
+        "bpy.ops.view3d.viewnumpad(type='CAMERA')"
+      ], 
+      [
+        "Persp/Ortho", 
+        "COMMAND", 
+        "MESH_GRID", 
+        "bpy.ops.view3d.view_persportho()"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ]
+]

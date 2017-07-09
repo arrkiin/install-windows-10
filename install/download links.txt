@@ -1,0 +1,34 @@
+VIDEO
+Blender https://www.blender.org/download/
+OBS studio https://obsproject.com/download
+
+ART
+Krita https://krita.org/download
+PureRef https://www.pureref.com/
+Affinity designer https://affinity.store/en-us/account/downloads/
+Photoshop: creative-cloud
+Lightroom: creative-cloud
+LazyNezumi https://lazynezumi.com/
+Aseprite
+
+GAMEDEV
+Godot https://godotengine.org/download
+Tiled https://thorbjorn.itch.io/tiled/download/saKefNVVDwf8DlonI36S58JiL4j_pZtk3ENJfwpU
+Substance Designer https://www.allegorithmic.com/user/87124/downloads
+
+UTILITY
+Bvckup 2 https://bvckup2.com/
+Directory Opus https://www.gpsoft.com.au/DScripts/download.asp
+Riot http://luci.criosweb.ro/riot/download/
+Flux https://forum.justgetflux.com/topic/3675/f-lux-beta-for-windows
+
+AUDIO
+Bitwig https://www.bitwig.com/en/account/profile.html
+FL studio https://support.image-line.com/member/profile.php?module=Licenses
+Play: on drive/cloud app
+Serum https://www.xferrecords.com/my_account
+Big Kick VST
+
+TEXT
+DragonNaturallySpeaking: on drive
+Office https://stores.office.com/myaccount/home.aspx?mktvid=AMC&mktcmpid=InstallLink#LaunchInstall

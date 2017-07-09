@@ -1,0 +1,170 @@
+[
+  [
+    "Obj: Snap Element", 
+    "Object Non-modal", 
+    "ctrl+shift+TAB", 
+    [
+      [
+        "Edge", 
+        "COMMAND", 
+        "SNAP_EDGE", 
+        "bpy.context.scene.tool_settings.snap_element = 'EDGE'"
+      ], 
+      [
+        "Face", 
+        "COMMAND", 
+        "SNAP_FACE", 
+        "bpy.context.scene.tool_settings.snap_element = 'FACE'"
+      ], 
+      [
+        "Vertex", 
+        "COMMAND", 
+        "SNAP_VERTEX", 
+        "bpy.context.scene.tool_settings.snap_element = 'VERTEX'"
+      ], 
+      [
+        "Increment", 
+        "COMMAND", 
+        "SNAP_INCREMENT", 
+        "bpy.context.scene.tool_settings.snap_element = 'INCREMENT'"
+      ], 
+      [
+        "Snap", 
+        "PROP", 
+        "SNAP_ON", 
+        "bpy.context.scene.tool_settings.use_snap"
+      ], 
+      [
+        "Volume", 
+        "COMMAND", 
+        "SNAP_VOLUME", 
+        "bpy.context.scene.tool_settings.snap_element = 'VOLUME'"
+      ], 
+      [
+        ""
+      ], 
+      [
+        "Absolute Grid Snap", 
+        "PROP", 
+        "SNAP_GRID", 
+        "bpy.context.scene.tool_settings.use_snap_grid_absolute"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ], 
+  [
+    "Obj: Interaction Mode", 
+    "Object Non-modal", 
+    "TAB", 
+    [
+      [
+        "Object Mode", 
+        "COMMAND", 
+        "OBJECT_DATA", 
+        "bpy.ops.object.mode_set(mode='OBJECT')"
+      ], 
+      [
+        "Edit Mode", 
+        "COMMAND", 
+        "EDITMODE_HLT", 
+        "bpy.ops.object.mode_set(mode='EDIT')"
+      ], 
+      [
+        "Weight Paint", 
+        "COMMAND", 
+        "WPAINT_HLT", 
+        "bpy.ops.object.mode_set(mode='WEIGHT_PAINT')"
+      ], 
+      [
+        "Texture Paint", 
+        "COMMAND", 
+        "TPAINT_HLT", 
+        "bpy.ops.object.mode_set(mode='TEXTURE_PAINT')"
+      ], 
+      [
+        "Vertex Paint", 
+        "COMMAND", 
+        "VPAINT_HLT", 
+        "bpy.ops.object.mode_set(mode='VERTEX_PAINT')"
+      ], 
+      [
+        "Sculpt Mode", 
+        "COMMAND", 
+        "SCULPTMODE_HLT", 
+        "bpy.ops.object.mode_set(mode='SCULPT')"
+      ], 
+      [
+        "Pose Mode", 
+        "COMMAND", 
+        "POSE_HLT", 
+        "bpy.ops.object.mode_set(mode='POSE')"
+      ], 
+      [
+        "Particle Edit", 
+        "COMMAND", 
+        "PARTICLEMODE", 
+        "bpy.ops.object.mode_set(mode='PARTICLE_EDIT')"
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ], 
+  [
+    "Obj: Viewport Shading", 
+    "Object Non-modal", 
+    "Z", 
+    [
+      [
+        "Bounding Box", 
+        "COMMAND", 
+        "BBOX", 
+        "bpy.context.space_data.viewport_shade = 'BOUNDBOX'"
+      ], 
+      [
+        "Wireframe", 
+        "COMMAND", 
+        "WIRE", 
+        "bpy.context.space_data.viewport_shade = 'WIREFRAME'"
+      ], 
+      [
+        "Solid", 
+        "COMMAND", 
+        "SOLID", 
+        "bpy.context.space_data.viewport_shade = 'SOLID'"
+      ], 
+      [
+        "Textured", 
+        "COMMAND", 
+        "POTATO", 
+        "bpy.context.space_data.viewport_shade = 'TEXTURED'"
+      ], 
+      [
+        "Material", 
+        "COMMAND", 
+        "MATERIAL", 
+        "bpy.context.space_data.viewport_shade = 'MATERIAL'"
+      ], 
+      [
+        "Rendered", 
+        "COMMAND", 
+        "SMOOTH", 
+        "bpy.context.space_data.viewport_shade = 'RENDERED'"
+      ], 
+      [
+        "Matcap", 
+        "PROP", 
+        "MATCAP_06", 
+        "bpy.context.space_data.use_matcap"
+      ], 
+      [
+        ""
+      ]
+    ], 
+    "PMENU", 
+    "pm?", 
+    "PRESS"
+  ]
+]
